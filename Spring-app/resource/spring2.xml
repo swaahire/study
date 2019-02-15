@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="question" class="com.swati.spring.Spring_app.Question">
+	<property name="questionId" value="101"></property>
+	<property name="question" value="What is your name????"></property>
+	<property name="answerList" >
+	<list>
+	<value>Swati</value>
+	<value>priti</value>
+	</list>
+	</property>
+<property name="answerSet" >
+<set>
+<value>Chaitali</value>
+<value>poojitha</value>
+</set>
+</property>
+<property name="answerMap" >
+<map>
+<entry key="1" value="Simer"/>
+<entry key="2" value="Abhay"/>
+</map>
+</property>
+</bean>
+</beans>
